@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+You can find my github projects at: [github.com/reminyborg](https://github.com/reminyborg)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[remi@nyborg.priv.no](mailto:remi@nyborg.priv.no)
