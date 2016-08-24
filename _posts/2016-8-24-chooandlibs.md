@@ -10,6 +10,7 @@ But it is still in its infancy and not everything has been worked out yet. One o
 
 choo uses template strings, vanilla es2015 awesomeness.
 I want only to call one simple function.
+
 ```javascript
 const html = require('choo/html')
 
@@ -23,6 +24,7 @@ const view = (state, prev, send) => html`
 ```
 
 We are going to create it inside a closure and return a func. This is a [d3](https://d3js.org/) chart.
+
 ```javascript
 const chart = (function (){
   // this is a closure, here we put internal stuff and init things
@@ -46,6 +48,7 @@ const chart = (function (){
 
 We can also do some more fancy stuff, like diffing and dispatching choo actions from the external library code.
 This is a full integration of the [leaflet](http://leafletjs.com/) map client:
+
 ```javascript
 const html = require('choo/html')
 const L = require('leaflet')
