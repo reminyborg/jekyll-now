@@ -34,7 +34,7 @@ const chart = (function (){
   
   // this is the function that will be called with chart(state)
   return function (state) {
-    // we set and update values by calling functions on the d3 lib
+    // we set and update values by calling d3 methods
     rect.transition().duration(750).attr('width', state.value)
   
     // always return the same element
@@ -42,7 +42,8 @@ const chart = (function (){
   }
 })()
 ```
-[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=d3477f03bcd3293cfa632bbd43c4985a)
+
+<iframe width="560" height="315" src="http://requirebin.com/embed?gist=d3477f03bcd3293cfa632bbd43c4985a" frameborder="0" allowfullscreen> </iframe>
 
 ### Diffing and Dispatch
 
@@ -68,12 +69,14 @@ const map = (function (){
   // this is the function that will be called with map(state, prev, send)
   return function (state, prev, send) {
     // diff and find new markers
-    /*psuedocode*/diff(state.points, prev.points).forEach((newId)=>{
+    /*psuedocode*/diff(state.points, prev.points)
+    .forEach((newId)=>{
       markers[newId] = L.circle(points[newId],10000, circleProps).addTo(map)
       marker.on('click',()=>send('remove',{ id: newId }))
     })
     // diff and find removed markers
-    /*psuedocode*/diff(prev.points, state.points).forEach((remId)=>{
+    /*psuedocode*/diff(prev.points, state.points)
+    .forEach((remId)=>{
       map.removeLayer(markers[remId])
       delete markers[remId]
     })
@@ -83,7 +86,8 @@ const map = (function (){
   }
 })()
 ```
-[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=970e917827aa636e0c9b4de784927d2d)
+
+<iframe width="560" height="315" src="http://requirebin.com/embed?gist=970e917827aa636e0c9b4de784927d2d" frameborder="0" allowfullscreen>  </iframe>
 
 ### Afterword
 This method works really well when you have **one instance** of a library you want to include into the choo view.
