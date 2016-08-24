@@ -40,9 +40,7 @@ const chart = (function (){
   }
 })()
 ```
-
-### The result
-<iframe width="560" height="315" src="http://requirebin.com/embed?gist=d3477f03bcd3293cfa632bbd43c4985a" frameborder="0" allowfullscreen></iframe>
+[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=d3477f03bcd3293cfa632bbd43c4985a)
 
 ### Diffing and Dispatch
 
@@ -82,9 +80,7 @@ const map = (function (){
   }
 })()
 ```
-
-### The result
-<iframe width="560" height="315" src="http://requirebin.com/embed?gist=970e917827aa636e0c9b4de784927d2d" frameborder="0" allowfullscreen></iframe>
+[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=970e917827aa636e0c9b4de784927d2d)
 
 ### Afterword
 This method works really well when you have **one instance** of a library you want to include into the choo view.
