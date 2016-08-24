@@ -87,7 +87,7 @@ const map = (function (){
 })()
 ```
 
-<iframe width="400" height="400" src="http://requirebin.com/embed?gist=970e917827aa636e0c9b4de784927d2d" frameborder="0" allowfullscreen>  </iframe>
+<iframe width="400" height="600" src="http://requirebin.com/embed?gist=970e917827aa636e0c9b4de784927d2d" frameborder="0" allowfullscreen>  </iframe>
 
 ### Afterword
 This method works really well when you have **one instance** of a library you want to include into the choo view.
