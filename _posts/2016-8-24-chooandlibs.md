@@ -43,6 +43,8 @@ const chart = (function (){
 })()
 ```
 
+[full code example](http://requirebin.com?gist=d3477f03bcd3293cfa632bbd43c4985a)
+
 <iframe width="400" height="200" src="http://requirebin.com/embed?gist=d3477f03bcd3293cfa632bbd43c4985a" frameborder="0" allowfullscreen> </iframe>
 
 ### Diffing and Dispatch
@@ -86,6 +88,8 @@ const map = (function (){
   }
 })()
 ```
+
+[full code example](http://requirebin.com?gist=970e917827aa636e0c9b4de784927d2d)
 
 <iframe width="400" height="600" src="http://requirebin.com/embed?gist=970e917827aa636e0c9b4de784927d2d" frameborder="0" allowfullscreen>  </iframe>
 
