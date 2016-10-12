@@ -3,7 +3,8 @@ layout: post
 title: Solving the problem with an open mind
 ---
 
-- Prejudice in the dev environment why its good
+- Prejudice in the dev environment why its good and bad (Cognetive load)
+- When to have an open mind / When not to
 - Why its bad when creating new stuff
 - Illustration of box in box with best solution outside
 - APIs and internal complexity leaking out
